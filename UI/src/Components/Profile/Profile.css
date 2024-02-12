@@ -1,0 +1,64 @@
+.profile-container {
+  background-color: #f7f8f9;
+  height: 100vh;
+  font-family: "Rubik", sans-serif; 
+}
+
+.heading h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d2226;
+  background-color: #fff;
+  padding: 5vw;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 5vw; 
+  padding: 3vw; 
+}
+
+.profile {
+  position: relative;
+}
+
+.profile img:nth-child(2) {
+  position: absolute;
+  bottom: 6px;
+  right: -5px;
+}
+
+.details-text h1 {
+  font-weight: 500; 
+  font-size: 15px;
+  color: #1d2226;
+}
+
+.details-text {
+  font-weight: 400; 
+  font-size: 14px;
+  color: #1d2226;
+}
+
+.summary p {
+  padding: 0 2vw;
+  font-size: 14px;
+  color: #1d2226;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 3px dotted #cbcbcb;
+  color: #cbcbcb;
+  height: 5px;
+}
+
+.dotted-line {
+  position: absolute;
+  bottom: 10vw;
+  width: 100%;
+}
